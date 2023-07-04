@@ -1,0 +1,30 @@
+.upLeft {
+    justify-content: left;
+    align-items: left;
+    height: auto;
+    flex: 50%;
+}
+.upLeft h3, p {
+    margin-left: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.middle {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 50%;
+    margin-left: 25%;
+}
+ .bottomRight {
+    justify-content: right;
+    align-items: right;
+    height: auto;
+    flex: 50%;
+    margin-left: 45%;
+ }
+
+ .bottomRight h3, p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}

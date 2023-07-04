@@ -1,0 +1,12 @@
+.confetti {
+    height: 60.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.confetti p{
+    font-size: larger;
+    font-weight: 700;
+}

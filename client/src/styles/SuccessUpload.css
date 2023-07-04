@@ -1,0 +1,17 @@
+.successUpload {
+    width: 100%;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;;
+}
+.successUpload button {
+    border-radius: 10px;
+    width: 150px;
+    height: 35px;
+    background-color: #A8B5E1;
+    color: white;
+    cursor: pointer;
+}

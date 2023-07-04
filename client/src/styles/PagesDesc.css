@@ -1,0 +1,78 @@
+.alien {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+}
+
+.alien .left {
+  height: 75%;
+  flex: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.alien .right {
+  height: 100%;
+  flex: 60%;
+  justify-content: center;
+}
+.alien .right h1 {
+  margin-left: 100px;
+}
+.firstInline span {
+  margin-left: 70px;
+  margin-right: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.secondInline span {
+  margin-left: 35px;
+  margin-right: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+.alien .right h3,
+h2 {
+  margin-left: 25px;
+}
+#history {
+  margin-left: 75px;
+}
+.address {
+  width: 150px;
+  height: 50px;
+  margin-left: 500px;
+  border-radius: 15px;
+  background-color: #8d9fdc;
+  font-weight: 600;
+  font-size: 27px;
+  border: 0px;
+}
+
+.table {
+  margin-left: 50px;
+}
+
+.makeOffer {
+  width: 175px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: #8d9fdc;
+  font-weight: 600;
+  font-size: 27px;
+  border: 0px;
+}
+button {
+  cursor: pointer;
+}
+#link {
+  text-decoration: none;
+  color: black;
+}

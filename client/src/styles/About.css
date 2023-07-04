@@ -1,0 +1,84 @@
+.about {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .aboutTop {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .aboutBottom {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .aboutBottom p {
+    width: 1200px;
+  }
+  
+ .aboutBottom h1 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  
+  .imageList {
+    width: 85vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  .imageItem {
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .imageItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .imageItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .imageItem h1 {
+    margin-left: 20px;
+    font-family: cursive;
+    font-size: 40px;
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+    .imageList {
+      grid-template-columns: 1fr;
+    }
+  }

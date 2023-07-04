@@ -1,0 +1,50 @@
+.offer h3 {
+    text-align: center;
+}
+.offer p{
+    font-size: 20px;
+}
+.offerForm {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* padding-top: 5px; */
+}
+.offerForm p{
+    font-weight: 800;
+    margin-left: 0px;
+}
+.form {
+    font-size: 17px;
+}
+#card {
+    margin-left: 30px;
+}
+.purchase {
+    margin-top: 15px;
+    margin-left: 200px;
+}
+.purchase button{
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: white;
+    color: #4a64ba;
+    margin-top: 10px;
+}
+#submit {
+    margin-right: 10px;
+}
+.outerButton {
+    width: 500px;
+    align-items: center;
+    height: 50vh;
+    margin-top: 7vh;
+    margin-bottom: 8vh;
+    margin-left: 350px;
+    background-color: #788ccd;
+    border: 0px;
+    border-radius: 30px;
+    padding-right: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

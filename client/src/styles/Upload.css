@@ -1,0 +1,28 @@
+  #photoIcon {
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .photoButton {
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #A8B5E1;
+    color: white;
+  }
+  #chooseFile {
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    color: white;
+    background-color: #A8B5E1;
+  }
+ .title {
+    text-align: center;
+  }
+  #contact-form {
+    height: 70vh;
+  }
